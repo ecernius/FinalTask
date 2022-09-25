@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+body{
+  background-color: crimson;
+}
+.img{
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+.toolbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.toolbar h1:hover{
+  color: white;
+  opacity: 1.2;
+    transform: scale(1.2);
+    cursor: pointer;
+      transition: 0.5s;
+}
+.toolbar button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+
+.toolbar button:hover {
+  cursor: pointer;
+  opacity: 1.2;
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: black;
+  background-color: white;
+}
+.authDivs{
+  display: flex;
+  justify-content: space-around;
+
+}
+.register{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.register h1{
+  margin: 10px;
+}
+.register input{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+}
+.register button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+.register button:hover{
+  cursor: pointer;
+  opacity: 1.2;
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: black;
+  background-color: white;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  }
+.login h1 {
+  margin: 10px;
+}
+
+.login input {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+}
+
+.login button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+.login button:hover {
+  cursor: pointer;
+  opacity: 1.2;
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: black;
+  background-color: white;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile button {
+  width: 100px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+
+.profile button:hover {
+  cursor: pointer;
+  opacity: 1.2;
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: black;
+  background-color: white;
+}
+.profile input{
+  margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+}
+.profile img{
+  border-radius: 8px;
+  border: none;
+  margin: 5px;
+}
+.profile h1{
+  margin: 10px;
+  font-size: 2.5em;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filteredUsers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.filteredUsers div:hover{
+transform: scale(1.2);
+transition: 0.3s;
+cursor: pointer;
+}
+.singeFiltrUser{
+  margin: 20px;
+  text-align: center;
+}
+.singleUser{
+  text-align: center;
+}
+.singleUser .img{
+width: 400px;
+height: 400px;
+margin: 10px;
+}
+
+.singleUser h3{
+font-size: 1.5em;
+margin: 5px;
+}
+.singleUser button {
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  margin: 10px;
+}
+
+.singleUser button:hover {
+  cursor: pointer;
+  opacity: 1.2;
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: black;
+  background-color: white;
+}
+.search input{
+    margin: 20px;
+      padding: 5px;
+      border-radius: 8px;
+      border: none;
+      width: 200px;
+}
